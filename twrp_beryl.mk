@@ -6,14 +6,14 @@
 #
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from beryl device
 $(call inherit-product, device/xiaomi/beryl/device.mk)
 
-# Inherit OrangeFox configuration (CRITICAL: Change from omni to otter)
+# Inherit OrangeFox configuration
 $(call inherit-product, vendor/otter/config/common.mk)
+
 
 # Device identifier
 PRODUCT_DEVICE := beryl
