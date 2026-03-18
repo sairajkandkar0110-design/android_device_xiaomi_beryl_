@@ -17,7 +17,7 @@ $(call inherit-product, vendor/otter/config/common.mk)
 
 # Device identifier
 PRODUCT_DEVICE := beryl
-PRODUCT_NAME := orangefox_beryl
+PRODUCT_NAME := twrp_beryl
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := POCO M7 Pro
 PRODUCT_MANUFACTURER := xiaomi
