@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/orangefox_beryl.mk
+    $(LOCAL_DIR)/twrp_beryl.mk
 
 COMMON_LUNCH_CHOICES := \
-    orangefox_beryl-userdebug \
-    orangefox_beryl-user \
-    orangefox_beryl-eng
+    twrp_beryl-userdebug \
+    twrp_beryl-user \
+    twrp_beryl-eng
